@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   get 'homepage/index'
+  get 'homepage/about'
+  get 'about/index'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
@@ -33,6 +35,8 @@ Rails.application.routes.draw do
   #     resources :comments, :sales
   #     resource :seller
   #   end
+
+  resources :about, only: [:index]
 
   # Example resource route with more complex sub-resources:
   #   resources :products do
