@@ -1,0 +1,36 @@
+// Place all the styles related to the homepage controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#navigation-bar {
+  background-color: black;
+  border-style: none;
+  // margin: auto;
+  float: right;
+  margin-top: 15px;
+
+}
+
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+img {
+  height: 500px;
+  border-width: 10px;
+  border-color: lightgray;
+  border-radius: 100%;
+  border-style: solid;
+  margin: 10px;
+}
+
+body {
+  background-color: black;
+  font-family: 'Dancing Script', cursive;
+
+}
+
+
+
